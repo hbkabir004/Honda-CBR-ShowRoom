@@ -25,6 +25,9 @@ body{
     font-weight: 500;
 }
 
+/*===============
+ Featured Section
+ ================= */
 
 .honda-featured{
         filter: gray; /* IE6-9 */
@@ -32,11 +35,45 @@ body{
         filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
+/*=====================
+     Clients Section
+========================= */
 
 .img-client{
     width: 149px;
-height: 149px;
-top: 40px;
-margin: 30px 0px;
+    height: 149px;
+    top: 40px;
+    margin: 30px 0px;
 }
 
+
+
+.honda-clients{
+    padding-bottom: 50px;
+}
+
+/*========================================
+         extra-section modal css
+=========================================== */
+
+  .rounded-4 { border-radius: .5rem; }
+  .rounded-5 { border-radius: .75rem; }
+  .rounded-6 { border-radius: 1rem; }
+  
+  .modal-sheet .modal-dialog {
+    width: 380px;
+    transition: bottom .75s ease-in-out;
+  }
+  .modal-sheet .modal-footer {
+    padding-bottom: 2rem;
+  }
+  
+  .modal-alert .modal-dialog {
+    width: 380px;
+  }
+  
+  .border-right { border-right: 1px solid #eee; }
+  
+  .modal-tour .modal-dialog {
+    width: 380px;
+  }
